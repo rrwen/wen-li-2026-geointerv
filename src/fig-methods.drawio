@@ -7,7 +7,7 @@
         <mxCell id="xfSVQfPkWPObZ8wr6tTD-67" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="32" y="382" width="645" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="xfSVQfPkWPObZ8wr6tTD-12" value="Problem&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Statement&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1A1A;strokeColor=none;shadow=1;fontColor=#F7F7F7;" vertex="1" parent="1">
+        <mxCell id="xfSVQfPkWPObZ8wr6tTD-12" value="Problem Formulation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1A1A;strokeColor=none;shadow=1;fontColor=#F7F7F7;" vertex="1" parent="1">
           <mxGeometry x="27" y="22" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xfSVQfPkWPObZ8wr6tTD-13" value="Framework Specification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A1A1A;strokeColor=none;shadow=1;fontColor=#F7F7F7;" vertex="1" parent="1">
