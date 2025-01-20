@@ -1,1 +1,1 @@
-(source bin/activate.sh && source bin/deactivate.sh && rm -r tmp/venv)
+(source bin/deactivate.sh && rm -r tmp/venv)
