@@ -162,6 +162,7 @@ cython_debug/
 #.idea/
 
 # Mac OS
+.icloud
 .DS_Store
 *.nosync
 *.nosync/
