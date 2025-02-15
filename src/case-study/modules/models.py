@@ -11,16 +11,17 @@ _autosklearn_default_kwargs = dict(
     resampling_strategy = 'cv',
     resampling_strategy_arguments = {'folds': 10},
     memory_limit = None,
-    time_left_for_this_task = 60
+    time_left_for_this_task = 600
 )
 
 _tpot_default_kwargs = dict(
     warm_start = True,
-    max_time_mins = 1
+    max_time_mins = 10,
+    cv = 10
 )
 
 _permutation_importance_default_kwargs = dict(
-    n_repeats=10,
+    n_repeats=100,
     random_state=0
 )
 
