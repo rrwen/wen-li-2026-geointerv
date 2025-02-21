@@ -124,9 +124,13 @@ class Optimizer:
         if name.lower() in 'bayesianoptimization':
             kwargs['f'] = func
             kwargs['pbounds'] = bounds
+
+        # Initiate optimizer and add original target as first iteration
+        optimizer = optimizer(*args, **kwargs)
+        optimizer.probe(params['value_orig'].to_dict())
         
         # Set attrs
-        self.optimizer = optimizer(*args, **kwargs)
+        self.optimizer = optimizer
         self.optimizer_name = name
         self.optimizer_group = group
         self.optimizer_call = call
